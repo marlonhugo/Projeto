@@ -106,7 +106,7 @@ Serial.print("Sentido (grau): ");
 if (satelites != TinyGPS::GPS_INVALID_SATELLITES) {
  Serial.print("Satelites: ");
  Serial.println(satelites);
- }
+  }
  
 if (precisao != TinyGPS::GPS_INVALID_HDOP) {
  Serial.print("Precisao (centesimos de segundo): ");
